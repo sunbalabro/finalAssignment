@@ -28,7 +28,7 @@ export default function AllStudents() {
   });   
         //  return () => {
          
-        //  }=
+        //  }
        }, [])
     return (
         <ScrollView>

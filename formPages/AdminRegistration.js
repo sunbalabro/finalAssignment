@@ -15,9 +15,9 @@ import auth from '@react-native-firebase/auth';
 
 export default function AdminSignup() {
 const [email, setEmail] = useState('');
+
 const [password, setPassword] = useState('');
-const [firstName, setfirstName] = useState('');
-const [lastName, setlastName] = useState('');
+
 
 const RegisterUser=({ userId })=>{
 

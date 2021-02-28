@@ -5,7 +5,7 @@ import AuthNavigation from "./AuthNavigation"
 // import { createStackNavigator } from '@react-navigation/stack';
 import auth from '@react-native-firebase/auth';
 import database from '@react-native-firebase/database';
-
+import AllUsersData from "./AllUsersData"
 // const Stack = createStackNavigator(); 
 
 export default function MainNavigation() {
@@ -41,8 +41,13 @@ export default function MainNavigation() {
   }, []);
 
   if (initializing) return null;
-    
 
+   if(user) 
+   if(user.email === "sabirabro@gmail.com"){
+     return(
+       <AllUsersData/>
+     )
+   }
      if (!user) {
     return (
  
