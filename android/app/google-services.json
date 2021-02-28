@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "912825072476",
+    "project_id": "campus-recruitment-123",
+    "storage_bucket": "campus-recruitment-123.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:912825072476:android:dad478bcc06ad957819f99",
+        "android_client_info": {
+          "package_name": "com.campusrecruitment"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "912825072476-nc2rghvrq203p46im4fag4tt5glrk8io.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAl333X_GvL3Q4u8lPE4-3GHnd2w3sXaSA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "912825072476-nc2rghvrq203p46im4fag4tt5glrk8io.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
