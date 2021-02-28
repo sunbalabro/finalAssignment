@@ -13,7 +13,7 @@ import Admin from "../admin.jpg"
 import database from '@react-native-firebase/database';
 import auth from '@react-native-firebase/auth';
 
-export default function StudentSignup() {
+export default function AdminSignup() {
 const [email, setEmail] = useState('');
 const [password, setPassword] = useState('');
 const [firstName, setfirstName] = useState('');
